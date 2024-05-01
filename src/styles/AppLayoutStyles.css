@@ -1,0 +1,36 @@
+.main-content {
+    margin-left: 50px; /* Adjust this value based on the width of your collapsed LeftNav */
+    flex-grow: 1;
+}
+
+@media (min-width: 768px) { /* Adjust this to your responsive breakpoint */
+    .main-content {
+        margin-left: 250px; /* Adjust this value based on the width of your expanded LeftNav */
+        margin-top: 40px;
+    }
+}
+
+/* Set the max-width of the list group and ensure it's centered */
+.list-group-container {
+    max-width: 50%;
+    margin: 0 0;
+  }
+  
+  /* Ensure there is a gap between vertically stacked elements */
+  .main-content > *:not(:last-child) {
+    margin-bottom: 20px; /* This applies to all children except the last one */
+  }
+  
+  /* Style the list group items to position the download button at the end */
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Additional padding for the buttons */
+  .list-group-item button {
+    margin-left: auto; /* This pushes the button to the far right */
+  }
+
+  

@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "chess-knight-utah"
+  },
+  "targets": {
+    "chess-knight-utah": {
+      "hosting": {
+        "www": [
+          "chess-knight-utah"
+        ],
+        "app": [
+          "chess-knight-utah-app"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

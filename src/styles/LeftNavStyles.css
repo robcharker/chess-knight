@@ -1,0 +1,4 @@
+/* Add this CSS to your styles.css or equivalent file */
+.nav-link:hover {
+    background-color: lightblue; /* Change color as needed */
+}
